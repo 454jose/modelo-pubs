@@ -90,7 +90,7 @@ public class TableRepository {
         
         String[] valueArray = values.split(",");
         
-        if (valueArray.length != 5) {
+        if (valueArray.length != 3) {
             System.out.println("Número de valores no coincide con las columnas.");
             return false;
         }

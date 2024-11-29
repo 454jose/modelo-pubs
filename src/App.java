@@ -6,7 +6,8 @@ public class App {
     static final String DB_URL = "jdbc:mysql://localhost:3306/pubs";
     static final String USER = "root";
     static final String PASS = "jose1";
-
+    
+     // Llamar al método para probar la conexión
     public static void main(String[] args) {
         Connection conn = null;
 
